@@ -9,3 +9,5 @@ def test_password_too_short():
 def test_password_without_number():
     assert in_valid_password('abcdefgh') == False
 
+
+
