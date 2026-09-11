@@ -1,4 +1,4 @@
-from passwort_checker import in_valid_password 
+from password_checker import in_valid_password 
 
 def test_valid_password():
     assert in_valid_password('abc12345') == True
